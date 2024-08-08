@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  background-color: black;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link{
+  color: white !important;
+  font-family: 'Teko', sans-serif;
+}
+#home{
+  background-color: #cebe2a;
+}
+
+#mus{
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#music{
+  background-color: #cebe2a;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Amatic SC', sans-serif;
+}
+
+
+
+.card col-sm-12 col-md-6 col-lg-4 {
+  margin-top: 0 !important;
+}
+
+.card col-sm-12 col-md-6 col-lg-4 {
+  margin-left: ($spacer * .25) !important;
+}
+
+.card col-sm-12 col-md-6 col-lg-4 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+}
+
+.card col-sm-12 col-md-6 col-lg-4{
+  padding: $spacer !important;
+}
